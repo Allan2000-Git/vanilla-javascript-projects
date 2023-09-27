@@ -6,7 +6,7 @@ Welcome to my collection of simple JavaScript projects. This repository contains
 
 1. **Project 1: Quiz App**
    - Description: A quiz app using vanilla JavaScript to test your general knowledge.
-   - Repository: [Link]([https://github.com/Allan2000-Git/vanilla-javascript-projects/quizz-app])
+   - Repository: [Link](https://github.com/Allan2000-Git/vanilla-javascript-projects/quizz-app)
 
 ## Getting Started
 
