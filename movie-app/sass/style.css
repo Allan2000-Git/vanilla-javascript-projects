@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", "Helvetica Neue", Arial, Helvetica, sans, sans-serif;
+}
+
+body {
+  background: #373B69;
+}
+
+header {
+  padding: 1.5rem 3rem 1.5rem 1rem;
+  display: flex;
+  justify-content: flex-end;
+  background: #708ED2;
+}
+
+.search input {
+  border: 2px solid #1b1f4e;
+  padding: 0.5rem 1.2rem;
+  border-radius: 50px;
+  background: transparent;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.search input:focus {
+  outline: none;
+}
+
+.search input::-moz-placeholder {
+  color: #1b1f4e;
+}
+
+.search input::placeholder {
+  color: #1b1f4e;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.movie-container {
+  border-radius: 0.3rem;
+  width: 250px;
+  background-color: #708ED2;
+  margin: 1.6rem;
+  overflow: hidden;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.movie-container h2 {
+  font-size: 1rem;
+  font-weight: normal;
+  margin: 0;
+  max-width: 150px;
+}
+
+.movie-container img {
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: inline-block;
+}
+
+.movie-info {
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.movie-info span {
+  background-color: #373B69;
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.3rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.movie-info span.green {
+  color: rgb(6, 169, 6);
+}
+
+.movie-info span.orange {
+  color: rgb(231, 61, 0);
+}
+
+.movie-info span.red {
+  color: red;
+}
+
+#show-more {
+  padding: 1rem 2rem;
+  background: #708ED2;
+  border: 0;
+  outline: 0;
+  color: white;
+  font-size: 0.9rem;
+  cursor: pointer;
+  border-radius: 0.2rem;
+  margin: 2rem 0rem;
+  cursor: pointer;
+}
+
+.overview {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: white;
+  padding: 1.5rem;
+  transform: translateY(100%);
+  transition: transform 0.3s ease;
+  font-size: 0.8rem;
+  text-align: justify;
+  overflow: auto;
+}
+
+.overview h3 {
+  margin-bottom: 1rem;
+}
+
+.movie-container:hover {
+  cursor: pointer;
+}
+
+.movie-container:hover .overview {
+  transform: translateY(0%);
+}/*# sourceMappingURL=style.css.map */
