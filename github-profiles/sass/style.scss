@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', 'Helvetica Neue', Arial, Helvetica, sans, sans-serif;
+}
+
+body{
+    background: #373B69;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.github{
+    padding:0.7rem 1.2rem 0.7rem 1.2rem;
+    border-radius: 0.5rem;
+    background: #2E2A68;
+    color: #fff;
+    font-size: 1rem; 
+    outline: 0; 
+    border: 0;
+    width: 400px;
+    max-width: 400px;
+}
+
+.github:focus{
+    outline: none;
+}
+
+.github::placeholder{
+    color: rgba(255,255, 255, 0.3);
+}
+
+.profile{
+    color: white;
+    display: flex;
+    // align-items: center;
+    // justify-content: space-between;
+    background: #2E2A68;
+    padding: 3rem;
+    border-radius: 1.5rem;
+    box-shadow: 1px 1px 100px rgba(0, 0, 0, 0.2);
+    margin-top:3rem;
+    max-width: 850px;
+}
+
+// .profile-img{
+//     display: flex;
+//     align-items: center;
+//     justify-content: space-between;
+// }
+
+.user-img{
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    border: 12px solid #1b1f4e;
+}
+
+.user-data{
+    margin-left: 3rem;
+}
+
+.user-data h3{
+    margin-top: 0;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.user-data p{
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    font-weight: normal;
+    color: rgba(255, 255, 255, 0.6);
+    text-align: justify;
+}
+
+.sub-data{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.sub-data li{
+    list-style: none;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.sub-data li i{
+    margin-right: 0.7rem;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.repos{
+    color: white;
+    display: inline-block;
+    margin-top: 1rem;
+    margin-right: 0.5rem;
+    text-decoration: none;
+    background: #1b1f4e;
+    font-size: 0.8rem;
+    padding:0.2rem 0.5rem;
+    border-radius: 0.3rem;
+}
+
+.repos:hover{
+    background: #0f1445;
+}
+
+.repos-div{
+    margin-top: 2rem;
+}
