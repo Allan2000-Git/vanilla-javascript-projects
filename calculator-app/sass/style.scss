@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', 'Helvetica Neue', Arial, Helvetica, sans, sans-serif;
+}
+
+.container{
+    background: #DDE7C7;
+    max-width: 500px;
+    padding:2rem 2rem;
+    margin: 2rem auto;
+    border-radius: 1rem;
+}
+
+.answer{
+    width: 100%;
+    background: #fff;
+    height: 60px;
+    border-radius: 0.5rem;
+    border: 0;
+    outline: 0;
+    padding: 0 1rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+.grid-buttons{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 0.5rem;
+}
+
+.grid-item{
+    text-align: center;
+    padding: 1rem 0;
+    border: 0;
+    outline: 0;
+    font-size: 1.4rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    background-color: white;
+}
+
+.btn-equal{
+    grid-row: 3/-1;
+    grid-column: 4;
+    background-color: #031926;
+    color: white;
+}
+
+.btn-div, .btn-mul, .btn-add, .btn-sub{
+    background-color: #5863F8;
+    color: white;
+}
+
+.btn-C{
+    background-color: #F39237;
+    color: white;
+}
