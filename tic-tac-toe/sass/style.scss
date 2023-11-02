@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.container{
+    margin-top: 2rem;
+}
+
+.content{
+    padding: 0 20rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav{
+    text-align: center;
+    padding: 2rem ;
+}
+
+#board{
+    width: 450px;
+    height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile{
+    width: 147px; // 150 = 147 + 3(border)
+    height: 147px;
+    font-size: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+.horizontal-line{
+    border-bottom: 3px solid black;
+}
+
+.vertical-line{
+    border-right: 3px solid black;
+}
+
+.playerWin{
+    background: #e5f9ff;
+    color: blue;
+}
